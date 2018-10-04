@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>用户注册</title>
+	<link rel="stylesheet" href="../css/cssreset.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<link rel="icon" href="../images/favicon.ico">
+</head>
+<body>
+	<header>
+		<a href='../index.html'><h1><span></span></h1></a>
+	</header>
+	<main>
+		<div class="main">
+			<h5><span>注册新会员  </span>已有艺龙账号， <a href="login.html">直接登录</a></h5>
+			<input type="checkbox"> 我有艺龙合作卡
+			<hr>
+			<form action="#" name='form1' onsubmit="return reg()">
+				<div class="imfor">
+
+					
+
+					<div class="box1">
+
+						<span>*</span>手机：<input type="text" id='phone'>
+						<span id='phonetip'></span>
+						
+						
+					</div>
+
+					<div class="box2">
+						<span>*</span>输入验证码：<input type="text" id="code">看不清，再换一张
+						<span id='codetip'></span>
+					</div>
+					
+					<div class="box3">
+						<span>*</span>短信验证码：<input type="text" id="note">
+						<input type="submit" value="获取短信验证码">
+						<span id='notetip'></span>
+					</div >
+					
+					<div class="box4">
+						<span>*</span>邮箱：<input type="text" id='email'><br>
+						<span id='emailtip'></span>
+						<span>*</span>密码：<input type="password" id="pass"><br>
+						<span>*</span>再次输入密码：<input type="password" id='repass'>
+						<span id='passtip'></span>
+					</div>
+
+				</div>
+				<input type="checkbox"> 同意接受艺龙发送的促销信息。<br>
+				
+				<div class="way">
+					<div class="way_input">
+						选择出行方式
+					</div>
+					
+					<dl class="ml135 addition clx" id="travelHabits" >
+						<dt>您的常住城市：</dt>
+						<dd><input type="text" method="prefCity" id="prefCityInput"><span class="l_black">（支持中文/拼音）</span>
+						</dd>
+						<dt>您的出差频率：</dt>
+						<dd>
+							<label for=""><input type="radio" name="BusinessRate" value="1">基本不出差</label>
+							<label for=""><input type="radio" name="BusinessRate" value="2">一月一次</label>
+							<label for=""><input type="radio" name="BusinessRate" value="3">一季度一次</label>
+							<label for=""><input type="radio" name="BusinessRate" value="4">一年一次</label>
+						</dd>
+						<dt>出差时入住酒店价位：</dt>
+						<dd>
+							<label for=""><input type="radio" name="BusinessHotel" value="4">150以下</label>
+							<label for=""><input type="radio" name="BusinessHotel" value="5">150-300元</label>
+							<label for=""><input type="radio" name="BusinessHotel" value="6">300-600元</label>
+							<label for=""><input type="radio" name="BusinessHotel" value="7">600元以上</label>
+						</dd>
+						<dt>您的旅游频率：</dt>
+						<dd>
+							<label for=""><input type="radio" name="TravelRate" value="4">1年1-2次</label>
+							<label for=""><input type="radio" name="TravelRate" value="3">1季度1次</label>
+							<label for=""><input type="radio" name="TravelRate" value="2">1月至少1次</label>
+						</dd>
+						<dt>旅游时入住酒店价位：</dt>
+						<dd>
+							<label for=""><input type="radio" name="TravelHotel" value="4">150以下</label>
+							<label for=""><input type="radio" name="TravelHotel" value="5">150-300元</label>
+							<label for=""><input type="radio" name="TravelHotel" value="6">300-600元</label>
+							<label for=""><input type="radio" name="TravelHotel" value="7">600元以上</label>
+						</dd>
+					</dl>
+					
+				</div>
+
+				<input type="checkbox"> 同意艺龙旅行网服务条款 <a href="#">查看条款</a>
+				<div class="reg">
+					<input type="submit" value="立即注册">
+				</div>
+				
+			</form>
+
+		</div>
+		
+		
+	</main>
+
+	<script src='../js/jquery.min.js'></script>
+	<script src='../js/register.js'></script>
+</body>
+</html>

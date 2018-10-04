@@ -1,0 +1,168 @@
+	/*
+	* @Author: hp
+	* @Date:   2018-07-30 17:30:46
+	* @Last Modified by:   admin
+	* @Last Modified time: 2018-09-12 20:32:15
+	*/
+
+	body{
+
+		background: #d3e9f7;
+
+	}
+
+	header{
+		height: 48px;
+		background:#f8f8f8;
+		overflow: hidden;
+	}
+	.head{
+		width: 1200px;
+		height:48px;
+		
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+
+	.right{
+		width: 470px;
+		height: 48px;
+		float: right;
+		text-align: center;
+		line-height: 48px;
+		font-size: 12px;
+		color: #cbcbcb;
+		
+	}
+
+	.right span{
+		color: #67a0f7;
+	}
+
+	.right a{
+		margin: 0px 10px;
+		text-decoration: none;
+		color: #cbcbcb;
+	}
+	h1{
+		float: left
+	}
+
+	.bigpic{
+
+		height:380px;
+		background:url("../images/bigpic1.jpg") no-repeat top center;
+		margin-bottom: 20px;
+	}
+
+	main{
+		width:1200px;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: hidden;
+	}
+	main ul{
+		width:386px;
+		height:632px;
+		background:#fff;
+		margin-bottom:20px;
+		margin-right:20px;
+		float: left;
+		position: relative;
+	}
+
+	.top {
+	    
+	    border-top-left-radius: 8px;
+	    border-top-right-radius: 8px;
+	    margin-bottom: 50px;
+	}
+	main p{
+		margin-right:20px;
+		margin-left: 20px;
+		line-height: 30px;
+		color:#666;
+		font-size:12px;
+
+	}
+	.text{
+		text-align: center;
+		font-size: 30px;
+		color: #83b63e;
+		margin-bottom: 20px;
+
+	}
+
+	.address1{
+		color:#adacac;
+		 margin-bottom:20px;
+	}
+
+	.bottom{
+		float:right;
+		bottom: 20px;
+		right: 0px;
+		position: absolute;
+	}
+
+	.price{
+		 float:left;
+		 margin-right:20px;
+		/*  margin-top: 38px; */
+		 font-size: 14px;
+	}
+	.look{
+		float:left;
+		display: block;
+		width:63px;
+		height:30px;
+		background:#83b63e;
+		color:#fff;
+		text-align:center;
+		/* margin-top: 38px;
+	 */
+	}
+	.look a{
+		color:#fff;
+		text-decoration: none;
+	}
+
+	.hotel{
+		
+		position:absolute;
+		width:60px;
+		height:60px;
+		border-radius: 50%;
+		background:#83b63e;
+		text-align:center;
+		color:#fff;
+		top: 260px;
+		left: 166px;
+		}
+	.hotel ul{
+			position: relative;
+			float: left
+		}
+
+	 .hotel p{
+	 	width: 60px;
+	 	color:#fff;
+	 	font-size: 16px;
+	 	font-weight: bold;
+		margin-left: 0px;
+	 }
+
+	 main ul:nth-of-type(3n){
+	 	margin-right: 0px;
+
+	 }
+
+	 footer{
+	 	height: 60px;
+	 	background: #fff;
+	 	text-align: center;
+	 	line-height: 60px;
+	 	color: #959595;
+	 	font-size: 12px;
+	 }

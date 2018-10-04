@@ -1,0 +1,925 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>【艺龙旅游网】</title>
+      <link rel="stylesheet" href="css/cssreset.css">
+      <link rel="stylesheet" href="css/style.css">
+      
+      <link rel="stylesheet" href="css/laydate.css" id="layuicss-laydate">
+      <link rel="icon" href="images/favicon.ico">
+
+
+    </head>
+    <body>
+      <header>
+       <h1><span></span></h1>
+       <p><a href="#">里程商城 </a>| <a href="#">在线客服 </a>| <span class="language">English</span></p>
+       <div class="lang">
+        <ul>
+          <li><a href="#">简体版</a></li>
+          <li><a href="#">繁体版</a></li>
+        </ul>
+      </div>
+      
+      <div class="top">
+       <ul>
+        <li >
+         <span class="left"></span>
+         <span class="box1">小程序<br>体验更轻盈</span>
+         <span class="pic1"></span>
+       </li>
+       <li>
+         <span class="center"></span>
+         <span class ="box2">手机版<br>专享五折起 </span>
+         <span class="pic2"></span>
+       </li>
+       <li>
+         <span class="right"></span>
+         <span class="box3">7×24 客服电话<br>4009-333-333</span>
+         <p class="pic3">国内：4009-333-333 香港：852-8131-8983 852-8131-8883 海外：86-10-6432-9999</p>
+         
+       </li>
+       
+     </ul>
+   </div>
+ </header>
+ <!-- 导航栏 -->
+ <nav>
+   <div class="nav">
+    <ul class="nlist">
+     <li class="current"><a href="#">首页</a></li>
+     <li><a href="html/home.html">国内酒店</a></li>
+     <li><a href="#">国际酒店</a></li>
+     <li><a href="#">机票</a></li>
+     <li><a href="html/train.html">火车票</a></li>
+     <li><a href="#">汽车</a></li>
+     <li><a href="html/handbook.html">旅游指南</a></li>
+     
+   </ul>
+
+   <div class="login_reg">
+    <p><a href="html/login.html">登录</a></p>
+    <p><a href="html/login.html">注册</a></p>
+
+
+    <div class="login">
+      <a href="html/login.html"><input type="submit" value="登录"></a>
+      <ul>
+        
+        <li><a><span class="log_s1"></span>酒店订单</a></li>
+        <li><a><span class="log_s2"></span>机票订单</a></li>
+        <li><a><span class="log_s3"></span>火车票订单</a></li>
+        <li><a><span class="log_s4"></span>现金账户</a></li>
+        <li><a><span class="log_s5"></span>汽车票订单</a></li>
+        <li><a><span class="log_s6"></span>酒店收藏</a></li>
+        <li><a><span class="log_s7"></span>我的点评</a></li>
+        <li><a><span class="log_s8"></span>个人设置</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</div>
+</nav>
+
+<main>
+ <!-- 轮播图 -->
+ <div class="rotate">
+   <ul id='ulist'>
+    <li class="current"><a href="#"  style="background: url(images/bigpic5.jpg) no-repeat center bottom;" ></a></li>
+    <li ><a href="#"  style="background: url(images/bigpic6.jpg) no-repeat center bottom;" ></a></li>
+    <li ><a href="#"  style="background: url(images/bigpic7.jpg) no-repeat center bottom;" ></a></li>
+    <li ><a href="#"  style="background: url(images/bigpic8.jpg) no-repeat center bottom;" ></a></li>
+    <li ><a href="#"  style="background: url(images/bigpic9.jpg) no-repeat center bottom;" ></a></li>
+    <li ><a href="#"  style="background: url(images/bigpic10.jpg) no-repeat center bottom;" ></a></li>
+  </ul>
+</div>
+
+<ol>
+  <li class="current"></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ol>
+<div class="main">
+  <div class="mainbox">   
+    <div class="left">
+     <ul>
+      <li class="current"><span></span>酒店</li>
+      <li><span></span>机票</li>
+      <li><span></span>火车票</li>
+    </ul>
+  </div>
+
+  <div class="right">
+    <div class="r_box current">
+      <ul>
+        <li class="curr"><span></span>国内酒店</li>
+        <li><span></span>国外酒店</li>                         
+      </ul>                        
+      <!-- 国内酒店 -->
+      <div class="cu">
+        <!-- 地址 -->
+        <div data-toggle="distpicker" >
+          目的地：<select class="form-control"></select>
+        </div>
+
+        <!-- 日期 -->
+        <div class="date">         
+          入住：<input type="text" class="demo-input" placeholder="请选择日期" id="date1">
+          退房：<input type="text" class="demo-input" placeholder="请选择日期" id="date2">
+        </div>
+
+        <!-- 关键词 -->
+        <div class="keywords">
+          关键词：<input type="text" >
+        </div>
+
+        <!-- 搜索 -->
+        <div class="search">
+          <span class="sec_box1">
+          搜索
+           <i></i>
+          </span>
+         
+          <a href="html/map.html" target='_blank'>
+            <span class="sec_box2">
+            地图搜索 
+            <i></i>
+            </span>
+          </a> 
+        </div>
+
+      </div>
+
+      <!-- 国外酒店 -->
+      <div>
+        <!-- 地址 -->
+        <div data-toggle="distpicker" >
+          目的地：<select class="form-control"></select>
+        </div>
+
+        <!-- 日期 -->
+        <div class="date">
+         
+          入住：<input type="text" class="demo-input" placeholder="请选择日期" id="date3">
+          退房：<input type="text" class="demo-input" placeholder="请选择日期" id="date4">
+        </div>
+
+        <!-- 关键词 -->
+        <div class="keywords">
+          关键词：<input type="text" >
+        </div>
+
+        <!-- 搜索 -->
+        <div class="search">
+          <span class="sec_box1">
+           <i></i>
+           搜索
+         </span>
+         
+       </div>
+     </div>
+   </div>
+   <div class="r_box">
+    <ul>
+      <li ><span></span>国内机票</li>
+      <li><span></span>国外机票</li>                   
+    </ul>                   
+
+    <!-- 国内机票 -->
+
+    <div class="t_home">
+
+      <div>
+        航程类型 :
+        <label> 
+          <input type="radio"  value="0" checked="checked" name="flytype1">
+          <span> 单程</span> 
+        </label>
+        <label> 
+          <input type="radio"  value="1" name="flytype1"> 
+          <span>往返</span> 
+        </label>
+      </div>
+      
+      <!-- 地址 -->
+      <div data-toggle="distpicker" >
+        往返城市：<select class="form-control"></select>
+
+      </div>
+
+      <div data-toggle="distpicker" >
+        <span class="go_back"></span><select class="form-control"></select>
+        
+      </div>
+
+      <!-- 日期 -->
+      <div class="date">
+       
+       去程：<input type="text" class="demo-input" placeholder="请选择日期" id="date5">
+       返程：<input type="text" class="demo-input" placeholder="请选择日期" id="date6">
+     </div>
+
+     
+
+     <!-- 搜索 -->
+     <div class="search">
+      <span class="sec_box1">
+        <i></i>
+        搜索
+      </span>
+      
+    </div>
+  </div>
+
+  <!-- 国外机票 -->
+  <div class="t_abroad">
+    <div>
+     航程类型:
+     <label> <input type="radio"  value="0"  name="flytype2"><span> 单程</span> </label>
+     <label> <input type="radio" checked="checked" value="1" name="flytype2"> <span>往返</span> </label>
+   </div>
+   
+   <!-- 地址 -->
+   <div data-toggle="distpicker" >
+    往返城市：<select class="form-control"></select>
+
+  </div>
+
+  <div data-toggle="distpicker" >
+    <span class="go_back"></span><select class="form-control"></select>
+    
+  </div>
+
+  <!-- 日期 -->
+  <div class="date">
+   
+   去程：<input type="text" class="demo-input" placeholder="请选择日期" id="test1">
+   返程：<input type="text" class="demo-input" placeholder="请选择日期" id="test1">
+ </div>
+
+ 
+
+ <!-- 搜索 -->
+ <div class="search">
+  <span class="sec_box1">
+    <i></i>
+    搜索
+  </span>
+  
+</div>
+</div>
+
+</div>
+
+
+
+<!-- 火车票 -->
+
+<div class="r_box">
+  <ul>
+    <li ><span></span>国内</li>
+    <li><span></span>国外</li>
+  </ul>
+
+  <div class="t_train">
+    
+    
+   <!-- 地址 -->
+   <div data-toggle="distpicker" >
+    往返城市：<select class="form-control"></select>
+
+  </div>
+
+  <div data-toggle="distpicker" >
+    <span class="go_back"></span><select class="form-control"></select>
+    
+  </div>
+
+  <!-- 日期 -->
+  <div class="date">
+   
+   出发日期：<input type="text" class="demo-input" placeholder="请选择日期" id="date7">
+   
+ </div>
+
+ 
+
+ <!-- 搜索 -->
+ <div class="search">
+  <span class="sec_box1">
+    <i></i>
+    搜索
+  </span>
+
+  <span  class="t_select">
+   
+    
+   <i class="" ></i>
+   只看动车/高铁
+   
+ </span>
+ 
+</div>       
+</div>
+<div>尚无车次</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<!-- 酒店展示 -->
+<div class="hotel">
+ <h5><span class="love"></span><a href="html/login.html">登录</a>展示你的个性内容</h5>
+ <ul>
+  <li><a href="html/yuanlin.html"><img src="images/hotel1.jpg" alt=""></a></li>
+  <li><img src="images/hotel2.jpg" alt=""></li>
+  <li><img src="images/hotel3.jpg" alt=""></li>
+  <li><img src="images/hotel4.jpg" alt=""></li>
+  <li><img src="images/hotel5.jpg" alt=""></li>
+  <li><img src="images/hotel6.jpg" alt=""></li>
+  <li><img src="images/hotel7.jpg" alt=""></li>
+  
+</ul>
+
+</div>
+<!-- 目的地 -->
+
+<div class="place">
+  <h5>目的地指数 <span>覆盖全球75万家酒店，你想住的，我们都有</span></h5>
+  <div class="home">
+   <span class="pic"></span> <span  class="htxt">国内</span>
+   <ul  id="hlist">
+    <li class="current">登高踏青</li>
+    <li >小憩温泉</li>
+    <li >天然氧吧</li>
+    <li >草原撒欢</li>
+    <li >小镇时光</li>
+    <li>美食之城</li>
+  </ul>
+  <!-- 1 -->
+  <section>
+    <div class="current">
+      <ul>
+        <li>
+         <div class="poto">
+           <img src="images/goal1.jpg" alt="">
+           <span class="txt">黄山</span>
+         </div>
+         <p >春意撩人 登高踏青赏春色</p>
+       </li>
+
+       <li>
+         <div class="poto">
+           <img src="images/goal2.jpg" alt="">
+           <span class="txt">峨眉山</span>
+         </div>
+         <p >阳春三月 闻着茶香去峨眉</p>
+       </li>
+
+       <li>
+         <div class="poto"><img src="images/goal3.jpg" alt="">
+           <span class="txt">五台山</span>
+         </div>
+         <p >迎春 祈福 登五台</p>
+       </li>
+       <li>
+         <div class="poto"><img src="images/goal4.jpg" alt="">
+           <span class="txt">庐山</span>
+         </div>
+         <p >亲近自然 春游庐山</p>
+       </li>
+     </ul>
+   </div>
+   <!-- 2 -->
+   <div >
+    <ul>
+      <li>
+       <div class="poto">
+         <img src="images/goal9.jpg" alt="">
+         <span class="txt">江苏天目湖</span>
+       </div>
+       <p >古树错落 帝王温泉</p>
+     </li>
+
+     <li>
+       <div class="poto">
+         <img src="images/goal10.jpg" alt="">
+         <span class="txt">威海天沐温泉</span>
+       </div>
+       <p >森林温泉 草本养生</p>
+     </li>
+
+     <li>
+      <div class="poto"><img src="images/goal11.jpg" alt="">
+        <span class="txt">广东中山温泉</span>
+      </div>
+      <p >毗邻港澳 商务养生</p>
+    </li>
+    <li>
+     <div class="poto"><img src="images/goal12.jpg" alt="">
+       <span class="txt">辽宁大连安波温泉</span>
+     </div>
+     <p >延年益寿 名誉中外</p>
+   </li>
+ </ul>
+</div>
+<!-- 3-->
+<div >
+  <ul>
+    <li>
+     <div class="poto">
+       <img src="images/goal13.jpg" alt="">
+       <span class="txt">拉萨</span>
+     </div>
+     <p >拉萨高原古城 圣山天湖 沁人心脾</p>
+   </li>
+
+   <li>
+     <div class="poto">
+       <img src="images/goal14.jpg" alt="">
+       <span class="txt">大理</span>
+     </div>
+     <p >文献名邦 彩云之南 空谷幽兰</p>
+   </li>
+
+   <li>
+     <div class="poto"><img src="images/goal15.jpg" alt="">
+       <span class="txt">舟山</span>
+     </div>
+     <p >东海翡翠 舟山群岛 气候宜人</p>
+   </li>
+   <li>
+     <div class="poto"><img src="images/goal16.jpg" alt="">
+       <span class="txt">厦门</span>
+     </div>
+     <p >天风海涛 鼓浪岛屿 鸟语芬芳</p>
+   </li>
+ </ul>
+</div>
+
+
+<!-- 4 -->
+<div >
+  <ul>
+    <li>
+     <div class="poto">
+       <img src="images/goal17.jpg" alt="">
+       <span class="txt">锡林郭勒</span>
+     </div>
+     <p >草原 牧民 小马驹</p>
+   </li>
+
+   <li>
+     <div class="poto">
+       <img src="images/goal18.jpg" alt="">
+       <span class="txt">坝上</span>
+     </div>
+     <p >帝都最近的草原</p>
+   </li>
+
+   <li>
+     <div class="poto"><img src="images/goal19.jpg" alt="">
+       <span class="txt">若尔盖</span>
+     </div>
+     <p >高原上的绿洲</p>
+   </li>
+   <li>
+     <div class="poto"><img src="images/goal20.jpg" alt="">
+       <span class="txt">祁连山</span>
+     </div>
+     <p >风景如画 醉美祁连山</p>
+   </li>
+ </ul>
+</div>
+
+<!-- 5 -->
+<div >
+  <ul>
+    <li>
+     <div class="poto">
+       <img src="images/goal21.jpg" alt="">
+       <span class="txt">西塘</span>
+     </div>
+     <p >烟雨长廊 景色好似宣纸画</p>
+   </li>
+
+   <li>
+     <div class="poto">
+       <img src="images/goal22.jpg" alt="">
+       <span class="txt">和顺</span>
+     </div>
+     <p >古风犹存 如诗如画</p>
+   </li>
+
+   <li>
+     <div class="poto"><img src="images/goal23.jpg" alt="">
+       <span class="txt">乌镇</span>
+     </div>
+     <p >推窗见水 小桥人家</p>
+   </li>
+   <li>
+     <div class="poto"><img src="images/goal24.jpg" alt="">
+       <span class="txt">平遥</span>
+     </div>
+     <p >晋商遗风 古城探幽</p>
+   </li>
+ </ul>
+</div>
+<!-- 6 -->
+<div >
+  <ul>
+    <li>
+     <div class="poto">
+       <img src="images/goal25.jpg" alt="">
+       <span class="txt">香港</span>
+     </div>
+     <p >只有想不到，没有找不到</p>
+   </li>
+
+   <li>
+     <div class="poto">
+       <img src="images/goal26.jpg" alt="">
+       <span class="txt">成都</span>
+     </div>
+     <p >不只有火锅，吃是头等事</p>
+   </li>
+
+   <li>
+     <div class="poto"><img src="images/goal27.jpg" alt="">
+       <span class="txt">扬州</span>
+     </div>
+     <p >吴侬软语 淮味养人</p>
+   </li>
+   <li>
+     <div class="poto"><img src="images/goal28.jpg" alt="">
+       <span class="txt">长沙</span>
+     </div>
+     <p >美食怕不辣，湘味最十足</p>
+   </li>
+ </ul>
+</div>
+
+</section>
+</div>
+
+<!-- 国外 -->
+
+<div class="abroad">
+ <span class="pic"></span> <span  class="htxt">海外</span>
+ <ul  id="alist">
+  <li class="current">文艺清新</li>
+  <li >面朝大海</li>
+  <li >别样建筑</li>
+  <li >浪漫主义</li>
+  <li >魅力都市</li>
+  
+</ul>
+<!-- 1 -->
+<section>
+  <div class="current">
+    <ul>
+      <li>
+       <div class="poto">
+         <img src="images/goal29.jpg" alt="">
+         <span class="txt">伦敦</span>
+       </div>
+       <p >风情英伦，帝国余韵</p>
+     </li>
+
+     <li>
+       <div class="poto">
+         <img src="images/goal30.jpg" alt="">
+         <span class="txt">清迈</span>
+       </div>
+       <p >泰北玫瑰，慢行古城</p>
+     </li>
+
+     <li>
+       <div class="poto"><img src="images/goal31.jpg" alt="">
+         <span class="txt">济州岛</span>
+       </div>
+       <p >最传统的浪漫，最神秘的自然</p>
+     </li>
+     <li>
+       <div class="poto"><img src="images/goal32.jpg" alt="">
+         <span class="txt">罗马</span>
+       </div>
+       <p >永恒之城，魅力无限</p>
+     </li>
+   </ul>
+ </div>
+ <!-- 2 -->
+ <div >
+  <ul>
+    <li>
+     <div class="poto">
+       <img src="images/goal33.jpg" alt="">
+       <span class="txt">普吉岛</span>
+     </div>
+     <p >海岛胜地，天人合一</p>
+   </li>
+
+   <li>
+     <div class="poto">
+       <img src="images/goal34.jpg" alt="">
+       <span class="txt">马尔代夫</span>
+     </div>
+     <p >一岛一世界</p>
+   </li>
+
+   <li>
+     <div class="poto"><img src="images/goal35.jpg" alt="">
+       <span class="txt">沙巴</span>
+     </div>
+     <p >纯净之极的原生态梦幻岛屿</p>
+   </li>
+   <li>
+     <div class="poto"><img src="images/goal36.jpg" alt="">
+       <span class="txt">夏威夷</span>
+     </div>
+     <p >凝聚着东方妩媚与西方性感</p>
+   </li>
+ </ul>
+</div>
+<!-- 3-->
+<div >
+  <ul>
+    <li>
+     <div class="poto">
+       <img src="images/goal37.jpg" alt="">
+       <span class="txt">巴塞罗那</span>
+     </div>
+     <p >天使之城，艺术之都</p>
+   </li>
+
+   <li>
+     <div class="poto">
+       <img src="images/goal38.jpg" alt="">
+       <span class="txt">米兰</span>
+     </div>
+     <p >在时尚与古典间穿梭</p>
+   </li>
+
+   <li>
+     <div class="poto"><img src="images/goal39.jpg" alt="">
+       <span class="txt">莫斯科</span>
+     </div>
+     <p >畅饮伏特加的英雄之城</p>
+   </li>
+   <li>
+     <div class="poto"><img src="images/goal40.jpg" alt="">
+       <span class="txt">伊斯坦布尔</span>
+     </div>
+     <p >古老与现代辉映，东方与西方交融</p>
+   </li>
+ </ul>
+</div>
+
+
+<!-- 4 -->
+<div>
+  <ul>
+    <li>
+     <div class="poto">
+       <img src="images/goal33.jpg" alt="">
+       <span class="txt">马尔代夫</span>
+     </div>
+     <p >一岛一世界</p>
+   </li>
+
+   <li>
+     <div class="poto">
+       <img src="images/goal41.jpg" alt="">
+       <span class="txt">圣托里尼</span>
+     </div>
+     <p >蓝白色的人间伊甸园原</p>
+   </li>
+
+   <li>
+     <div class="poto"><img src="images/goal42.jpg" alt="">
+       <span class="txt">巴黎</span>
+     </div>
+     <p >浪漫如斯，热情如是</p>
+   </li>
+   <li>
+     <div class="poto"><img src="images/goal43.jpg" alt="">
+       <span class="txt">普罗旺斯</span>
+     </div>
+     <p >薰衣草之乡</p>
+   </li>
+ </ul>
+</div>
+
+<!-- 5 -->
+<div >
+  <ul>
+    <li>
+     <div class="poto">
+       <img src="images/goal44.jpg" alt="">
+       <span class="txt">新加坡</span>
+     </div>
+     <p >乐享狮城，多彩四季</p>
+   </li>
+
+   <li>
+     <div class="poto">
+       <img src="images/goal45.jpg" alt="">
+       <span class="txt">阿姆斯特丹</span>
+     </div>
+     <p >郁金香绽放的水都</p>
+   </li>
+
+   <li>
+     <div class="poto"><img src="images/goal46.jpg" alt="">
+       <span class="txt">洛杉矶</span>
+     </div>
+     <p >好莱坞的风情</p>
+   </li>
+   <li>
+     <div class="poto"><img src="images/goal47.jpg" alt="">
+       <span class="txt">吉隆坡</span>
+     </div>
+     <p >双子塔上，气度非凡</p>
+   </li>
+ </ul>
+</div>
+<!-- 6 -->
+
+</section>
+</div>
+</div>
+
+<div class="tour">
+ <h5>旅游指南</h5>
+ <ul id="tlist">
+   <li class="current"><a href="html/tour.html">烟雨江南醉杭州 正是问茶时</a><span></span></li>
+   <li><a href="#">无锡鼋头渚的樱舞飞扬</a><span></span></li>
+   <li><a href="#">武大樱花 飞扬校园里的青春</a><span></span></li>
+   <li><a href="#">昆明郁金香 赏花何必去荷兰</a><span></span></li>
+ </ul>
+
+ <ul id="plist">
+   <li class="current"><a href="html/tour.html"><img src="images/tour1.jpg" alt=""></a></li>
+   <li><a href="#"><img src="images/tour2.jpg" alt=""></a></li>
+   <li><a href="#"><img src="images/tour3.jpg" alt=""></a></li>
+   <li><a href="#l"><img src="images/tour4.jpg" alt=""></a></li>
+ </ul>
+
+ <ul class="t_right">
+  <li >
+    <img src="images/tour5.jpg" alt="">
+    <a href="#">全年旅行月历 四季里的12种玩法</a>
+  </li>
+  <li>
+    <img src="images/tour6.jpg" alt="">
+    <a href="#">2018 再赴婺源油菜花之约</a>
+    
+  </li>
+</ul>
+</div>
+
+
+<div class="footlogo">
+  <ul id="flist">
+   <li class="current">
+     <span class="box1"></span>
+     <p>全球110万家酒店</p>
+   </li>
+
+   <li>
+     <span class="box2"></span>
+     <p>订酒店返现金高达20%</p>
+   </li>
+
+   <li>
+     <span class="box3"></span>
+     <p>国际酒店8折起</p>
+   </li>
+   <li>
+     <span class="box4"></span>
+     <p>7×24小时服务</p>
+   </li>
+   
+ </ul>
+ 
+</div>
+</main>
+
+<div class="bigimfor">
+ <div class="imfor">
+  <ul>
+   <li class="imfortop">加盟合作</li>
+   <li><a href="#">酒店加盟</a></li>
+   <li><a href="#">开放平台</a></li>
+   <li><a href="#">代理合作</a></li>
+   <li><a href="#">广告服务</a></li>
+   <li><a href="#">商家中心</a></li>
+ </ul>
+
+ <ul>
+   <li class="imfortop">关于艺龙</li>
+   <li><a href="#">酒店大全</a></li>
+   <li><a href="#">国际酒店</a></li>
+   <li><a href="#">旅行保险</a></li>
+   <li><a href="#">校园招聘</a></li>
+   <li><a href="#">联系我们</a></li>
+ </ul>
+ <ul>
+   <li class="imfortop">艺龙APP下载</li>
+   <li><span class="imfor_pic1"></span></li>
+ </ul>
+ <ul>
+   <li class="imfortop">艺龙官方微信</li>
+   <li><span class="imfor_pic2"></span></li>
+ </ul>
+ <ul>
+   <li class="imfortop">艺龙官方小程序</li>
+
+   <li><span class="imfor_pic3"></span></li>
+ </ul>
+
+</div>
+<p>2000 - 2018 北京艺龙信息技术有限公司, eLong, Inc or its affiliates. All Rights Reserved.  京ICP证010011号 </p>
+<p class="bottom1"><span class="bottom2"></span>京公网安备11010502026059号 经营执照 《艺龙旅行网服务条款》</p>
+<div class="morelogo">
+ <ul>
+  <li class="current"><span class="logo1"></span></li>
+  <li><span class="logo2"></span></li>
+  <li><span class="logo3"></span></li>
+  <li><span class="logo4"></span></li>
+  <li><span class="logo5"></span></li>
+  <li><span class="logo6"></span></li>
+</ul>
+</div>
+</div>
+<footer>
+  <div class="foot">
+   <ul>
+    <li><a href="#">酒店预订</a></li>
+    <li><a href="#">机票查询</a></li>
+    <li><a href="#">酒店团购</a></li>
+    <li><a href="#">热门城市</a></li>
+    <li><a href="#">合作伙伴</a></li>
+    <li><a href="#">常见酒店</a></li>
+    <li><a href="#">机票查询</a></li>
+  </ul>
+</div>
+</footer>
+
+
+
+
+<script src='js/jquery.min.js'></script>
+<script src='js/style.js'></script>
+<!-- 地址 -->
+<script src='js/distpicker.js'></script>
+<script src='js/main.js'></script>
+<!-- 日期 -->
+<script src='js/laydate.js'></script>
+<script>
+ 
+
+            //执行一个laydate实例
+            laydate.render({
+              elem: '#date1' //指定元素
+              
+            });
+            laydate.render({
+              elem: '#date2' //指定元素
+              
+            });
+            laydate.render({
+              elem: '#date3' //指定元素
+              
+            });
+            laydate.render({
+              elem: '#date4' //指定元素
+              
+            });
+            laydate.render({
+              elem: '#date5' //指定元素
+              
+            });
+            laydate.render({
+              elem: '#date6' //指定元素
+              
+            });
+            laydate.render({
+              elem: '#date7' //指定元素
+              
+            });
+            
+          </script>
+        </body>
+        </html>
+
+
+
+        

@@ -1,0 +1,1441 @@
+	/*
+	* @Author: hp
+	* @Date:   2018-08-17 14:33:56
+	* @Last Modified by:   admin
+	* @Last Modified time: 2018-09-12 20:31:02
+	*/
+
+	body {
+	    font-size: 12px;
+	    color: #343434;
+	    font-family: "lantinghei SC","Microsoft YaHei",STHeiTi,sans-serif;
+	}
+	header{
+		height: 35px;
+		background: #f8f8f8;
+	}
+
+	.head{
+		width: 1200px;
+		height:35px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.head ul{
+		overflow: hidden;
+	}
+	.head li{
+		float: left;
+		
+		text-align: center;
+		margin-top: 8px;
+		cursor: pointer;
+	     padding: 0 10px;
+	     border-right:1px solid #dfdfdf;
+
+	}
+	 .head .current{
+	 	color:#1a90de;
+	}
+
+	 .head .num{
+	 	float:right;
+
+	 }
+	 .head .num span{
+	 	color:#556bd6;
+	 }
+
+	 .head_section {
+	 	width:1200px;
+	 	margin-left:auto;
+	 	margin-right: auto;
+	 	margin-top:30px;
+	 	overflow:hidden;
+	 }
+	.head_logo{
+		float:left;
+		margin-top:20px;
+	}
+	 .big_search{
+	 	width:860px;
+	 	height:81px;
+	 	float:right;
+
+	 }
+
+	 .trip_section{
+	 	border: 3px solid #f7a33d;
+	    border-radius: 25px;
+	    height: 40px;
+	    width: 800px;
+	 }
+
+	.current-type{
+		width: 100px;
+	    height: 32px;
+		padding-left: 20px;
+		float: left;
+	}
+
+	.current-type input{
+		width: 90px;
+	    height: 32px;
+	    line-height: 32px;
+	    text-align: center;
+	    font-size: 18px;
+	    border: 0;
+	    outline: 0;
+	    padding-right: 10px;
+	    cursor: pointer;
+
+	}
+
+	.current-list{
+		margin-left: 20px;
+		margin-top: 40px;
+	    box-shadow: 0 2px 2px #ddd;
+	    position: absolute;
+	    width: 100px;
+	    z-index: 999;
+	    border-top: 1px solid #f8f8f8;
+	    display: none;
+	}
+
+	.current-list li{
+		background: #fff;
+	    line-height: 36px;
+	    text-align: center;
+	    font-size: 16px;
+	    cursor: pointer;
+
+	}
+
+	.current-list .current{
+		background: #ffb100;
+		color: #fff;
+	}
+
+
+	/* 搜索按钮*/
+
+	.btn{
+		width: 128px;
+	    height: 40px;
+	    background: #ffb100;
+	    color: #fff;
+	    text-align: center;
+	    line-height: 40px;
+	    font-size: 20px;
+	    border-radius: 0 20px 20px 0;
+	    cursor: pointer;
+	    float: right;
+	}
+
+
+	/* 中间显示部分 */
+	.c_show{
+		float: left;
+		border-left: 1px solid #f7a33d;
+	 
+	}
+	.c_show>div{
+		
+		
+	}
+	.c_show input{
+		border: 0;
+	    margin-bottom: 0;
+	    height: 20px;
+	    font-size: 16px;
+	    padding: 6px;
+	    width: 539px;
+	    outline: 0;
+	    margin-top: 4px;
+	     color: #ccc;
+	     cursor: pointer;
+	}
+
+	.c_show ul{
+		display: none;
+		width: 600px;
+		height: 300px;
+		position: absolute;
+		z-index: 10;
+		background: #fff;
+		border: 1px solid #ccc;
+		overflow: hidden;
+		/* top: 44px;
+		left: -50px; */
+
+		
+
+	}
+	.c_show a:hover{
+		color: red;
+		cursor: pointer;
+	}
+	.c_show li{
+		width: 270px;
+		
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 20px;
+	}
+	.c_show li:nth-of-type(3){
+		width: 600px;
+	}
+	.c_show h5{
+		font-size: 20px;
+		color: #ffb100;
+		margin: 10px 0 10px 10px;
+	}
+	.c_show a{
+		float: left;
+		display: block;
+		padding: 5px;
+	}
+
+
+
+	/* 热词 */
+	.trip-search-hot{
+		padding-left: 20px;
+	    font-size: 14px;
+	    padding-top: 15px;
+	}
+	.trip-search-hot span{
+		float: left;
+	}
+	 .trip-search-hot li{
+	 	float: left;
+	 	color: #6c6c6c;
+	    font-size: 14px;
+	    margin: 0 5px;
+	    cursor: pointer;
+	 }
+
+	 .trip-search-hot a:hover{
+	 	
+	 	color: red;
+	 }
+
+
+	 /* 导航部分 */
+	.nav_box {
+	   
+	    background-color: #0298e5;
+	    min-width: 1000px;
+	    margin-top: 13px;
+	    height: 48px;
+	    background: #0298e5;
+	}
+
+	.nav{
+		width: 1200px;
+	    height: 48px;
+	    margin: 0px auto;
+	    position: relative;
+	    line-height: 48px;
+
+	   
+	}
+
+	.nav .link li{
+		float: left;
+		height: 48px;
+	    line-height: 48px;
+	    padding: 0 30px;
+	    font-size: 16px;
+	    color: #fff;
+	    cursor: pointer;
+
+	}
+
+	.nav .link li:hover{
+		background: #006bd4;
+	}
+	.nav .current{
+		background: #006bd4;
+	}
+
+	.nav .login_reg {
+		float: right;
+		width: 200px;
+		height: 48px;
+	}
+
+	.nav .login_reg  li{
+		float: left;
+		height: 48px;
+	    line-height: 48px;
+	    padding: 0 30px;
+	    font-size: 16px;
+	    color: #fff;
+	    background: #006bd4;
+	    border-right: 1px solid #fff;
+	    cursor: pointer;
+	}
+
+	.login_reg a{
+		text-decoration:none;
+		color:#fff;
+	}
+
+	/**/
+	.big_rotate{
+	    height:370px;
+		width:1200px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top:10px;
+		overflow:hidden;
+
+		
+
+	}
+	/*轮播图部分*/
+	.rotate{
+		width:800px;
+		height: 370px;
+		position: relative;
+		overflow:hidden;
+		float:left;
+		margin-right:10px;
+		
+
+		
+	}
+
+	#ulist{
+
+		width:9999px;
+		position: relative;
+	    left:0px;
+	}
+
+	#ulist li{
+		float:left;
+		
+	}
+
+	#ulist  a{
+		height:370px;
+		width:800px;
+	    display:none;
+
+	}
+
+	#ulist .current {
+		display:block;
+	}
+
+	ol{
+		position:absolute;
+		width:300px;
+		height:20px;
+		bottom:5px;
+	     left:230px;
+
+	}
+	ol li{
+		width:30px;
+		height:10px;
+		margin-right: 10px;
+		border-bottom:4px solid black;
+		float:left;
+
+	}
+
+	ol .current{
+		border-bottom:4px solid #f60;
+	}
+
+
+	/* 热门部分*/
+
+	.big_rotate .r_box{
+
+		width:380px;
+		height:370px;
+		float:left;
+		
+		position: relative;
+		overflow:hidden;
+
+	}
+
+	.tour-btn{
+		font-size: 18px;
+	    float:left;
+		width:110px;
+		height:50px;
+		padding: 20px 0px 20px 70px;
+	    position: relative;
+	    line-height: 1.5;
+	    margin-right:10px;
+
+	   
+	}
+
+	.tour-btn .icon{
+		position:absolute;
+		width: 50px;
+	    height: 50px;
+	    background:url('../images/trip_index.png') 0 -85px;
+	    left:10px;
+
+	}
+
+	.tour-btn .btn-title{
+
+		color: #6cce1c;
+	    font-size: 18px;
+	}
+
+
+	.app-btn{
+		font-size: 18px;
+	    float:left;
+		width:110px;
+		height:50px;
+		padding: 20px 0px 20px 70px;
+	    position: relative;
+	    line-height: 1.5;
+	   
+	   
+	}
+
+	.app-btn  .icon-app{
+		position:absolute;
+		width: 50px;
+	    height: 50px;
+	    background:url('../images/trip_index.png') 0 -33px;
+	    left:10px;
+
+	}
+
+	.app-btn .btn-title{
+
+		color: #ff6c66;
+	    font-size: 18px;
+	}
+
+	.app-pic{
+		display:none;
+		right:0px;
+		top:75px;
+		position:absolute;
+		width:220px;
+		height:100px;
+		background:url('../images/icons.png')  -460px -50px;
+
+
+
+	}
+
+	/*热门标签*/
+
+	.hot-label{
+		background-color: #f8f8f8;
+	    width: 368px;
+	    border: 1px solid #d3d3d3;
+	    border-top: 2px solid #ffcecf;
+	    padding-left: 14px;
+	    margin-top: 20px;
+	    padding-bottom: 18px;
+	    float:left;
+	}
+
+	.hot-title{
+		color: #343434;
+	    font-size: 18px;
+	    margin: 20px 0 30px;
+	}
+
+	.hot-title a{
+		float:right;
+		font-size: 14px;
+	    margin-right: 15px;
+	    cursor:pointer;
+
+
+
+	}
+
+	.hot-list a{
+		text-decoration: none;
+		color :#fff;
+
+	}
+	.hot-list li{
+		float: left;
+	    border-radius: 20px;
+	    height: 42px;
+	    width: 108px;
+	    color: #fff;
+	    font-size: 18px;
+	    margin-right: 14px;
+	    text-align:center;
+	    line-height:42px;
+	    margin-bottom: 10px;
+	    cursor: pointer;
+	}
+
+	.hot-list li:nth-of-type(1){
+		background-color: #c3b2ea;
+	}
+	.hot-list li:nth-of-type(2){
+		    background-color: #6cd6d9;
+	}
+	.hot-list li:nth-of-type(3){
+		background-color: #ff8e8f;
+	}
+	.hot-list li:nth-of-type(4){
+		    background-color: #71c1f1;
+	}
+	.hot-list li:nth-of-type(5){
+		background-color: #f7bb3d;
+	}
+	.hot-list li:nth-of-type(6){
+	    background-color: #c3b2ea;
+	}
+	.hot-list li:nth-of-type(7){
+		 background-color: #6cd6d9;
+	}
+	.hot-list li:nth-of-type(8){
+	  background-color: #ff8e8f;
+	}
+	.hot-list li:nth-of-type(9){
+		    background-color: #71c1f1;
+	}
+
+
+	/*动画部分*/
+	.hot-list li:hover{
+		transform:scale(1.1);
+	}
+
+
+	/*热门文章*/
+
+	 .hot-seaction{
+	 	
+	 	width:1200px;
+	 	height:66px;
+	 	margin-right:auto;
+	 	margin-left:auto;
+	    margin-top:30px;
+	    border-bottom: 2px solid #ffb000;
+	    overflow:hidden;
+	    padding-bottom:20px;
+
+	 }
+
+	 .title-text{
+	 	display:block;
+	 	font-size: 34px;
+	    line-height: 64px;
+	    font-weight: 600;
+	    color: #343434;
+	    margin-top: 20px;
+	    float:left;
+	 }
+
+	.text-list{
+		width:800px;
+		height:15px;
+		margin-left:200px;
+		margin-top:55px;
+		float:left;
+	   overflow:hidden;
+	   font-weight:16px;
+	}
+	 .text-list ul{
+	    float:left;
+	    height:600px;
+	 	position: relative;
+	 	overflow:hidden;
+	 	padding-right:25px;
+	 	padding-left:15px;
+	 	border-right:1px solid #ccc;
+	 }
+
+
+	.text-list span{
+	 	color:#ff6c66;
+	 }
+
+
+	 /*国内游*/
+
+	 .home-trip{
+	 	width:1200px;
+	 	margin-left:auto;
+	 	margin-right:auto;
+	 	
+	 	overflow:hidden;
+	 }
+
+	 .trip-title{
+		font-size: 24px;
+	    color: #343434;
+	    height: 50px;
+	    line-height: 50px;
+	    padding-top: 10px;
+	}
+
+	.trip-title a{
+		float:right;
+		font-size: 14px;
+	    margin-right: 15px;
+	    cursor:pointer;
+
+
+
+	}
+
+
+	.img-title {
+		
+	    background: rgba(0,0,0,.5);
+	    color: #fff;
+	    line-height: 50px;
+	    font-size: 20px;
+	    position: absolute;
+	    bottom: 0;
+	    width:94%;
+	    padding:0 3%;
+	}
+
+	.trip_img{
+		float:left;
+		position: relative;
+		width:468px;
+	    height:296px;
+	    overflow:hidden;
+
+	}
+
+
+	.trip_img img:hover{
+
+		transition:all 1s;
+
+		transform:scale(1.2)
+	}
+
+	/*右边部分*/
+	.r_home{
+		float:left;
+		width: 730px;
+	    height: 254px;
+	    padding: 20px 0;
+	    color: #343434;
+	    border: 1px solid #ddd;
+	    font-size: 14px;
+	    
+	}
+
+	.r_home p{
+		margin-bottom: 15px;
+	    text-align: center;
+	    font-size: 30px;
+	    color:#ff6462;
+	}
+
+
+	.r_home li{
+		float: left;
+	    width: 330px;
+	    padding-left: 20px;
+	    margin-right: 10px;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    line-height: 30px;
+	    font-size: 16px;
+	}
+
+	.r_home span{
+		font-size: 20px;
+	    line-height: 1;
+	}
+
+	.trip{
+		width:1200px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top: 20px;
+		
+	}
+
+	.abroad-trip{
+		width: 590px;
+		height: 200px;
+		float: left;
+		margin-right: 20px;
+	}
+
+	.home-trip  li:hover{
+	cursor:pointer;
+	color:red;
+
+	}
+	.abroad-trip  li:hover{
+	cursor:pointer;
+	color:red;
+
+	}
+
+	.left_img{
+		float: left;
+		overflow: hidden;
+
+	}
+
+	.left_img:hover img{
+		position: relative;
+		transition: all 1s;
+		transform: scale(1.2)
+	}
+	.left_list{
+		width: 338px;
+		height: 158px;
+		float:right;
+		color: #343434;
+	    border: 1px solid #ddd;
+	    
+		
+	}
+
+	.left_list p{
+		margin-bottom: 15px;
+	    text-align: center;
+	    color: #ff6462;
+	    font-size: 16px;
+	    margin-top: 20px;
+	}
+
+	.left_list li{
+		float: left;
+	    width: 330px;
+	    padding-left: 20px;
+	    margin-right: 10px;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+	    line-height: 30px;
+	    font-size: 16px;
+	}
+
+
+	/* 附近游部分 */
+	.near-title{
+
+		position: relative;
+	}
+	.nlist{
+
+		
+		position: absolute;
+		right: 145px;
+		top: 10px;
+	}
+
+	.nlist li{
+		width: 50px;
+		height: 26px;
+		border-radius: 30px;
+		float: left;
+		font-size: 18px;
+		margin-left:10px;
+		padding: 5px;
+		text-align: center;
+		line-height: 26px;
+		cursor: pointer;
+	}
+	.nlist .current{
+		background: #2cc58e;
+		color: #fff;
+	}
+
+	/* 周边游城市 */
+	.nearby-trip{
+	overflow: hidden;
+	}
+	.nearby-trip>div{
+		display: none;
+	}
+
+	.nearby-trip .current{
+		display: block;
+	}
+
+	.nearby-trip a:hover{
+		color: red;
+		cursor: pointer;
+
+	}
+
+
+	/* 出行日历 */
+	.go_date{
+		width: 1200px;
+		
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 20px;
+		overflow: hidden;
+
+	}
+
+	.go_date h4{
+		font-size: 34px;
+	    line-height: 64px;
+	    font-weight: bold;
+	    color: #343434;
+	}
+
+	.date{
+		width: 1200px;
+		height: 100px;
+	    border: 1px solid #d8d8d8;
+	   border-top: 2px solid #ff7363;
+	   overflow: hidden;
+	}
+
+	.date li{
+		float: left;
+	    width: 60px;
+	    height: 60px;
+	    color: #939393;
+	    border-radius: 30px;
+	    line-height: 60px;
+	    text-align: center;
+	    margin: 19px;
+	    cursor:pointer;
+	}
+	.date i{
+		font-size: 28px;
+	    margin-right: 5px;
+	    font-family: arial;
+	}
+	.date .current{
+		background: #ff7363;
+		color: #fff;
+	}
+
+	/* 出行日历对应的内容 */
+	.date-section{
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	    overflow: hidden;
+	}
+
+	.date-section>div{
+		display: none;
+	}
+	.date-section .current{
+		display: block;
+	}
+
+	.date-section li{
+		float: left;
+	    width: 220px;
+	   height: 256px;
+	    margin-right: 20px;
+	    margin-top: 20px;
+	    border: 1px solid #ccc;
+	    margin-bottom: 20px;
+	   
+	}
+
+	.date-section li:nth-of-type(5n){
+	margin-right: 0px;
+	}
+	.date-section li:hover{
+
+
+	box-shadow: 2px 2px 3px #ccc;
+	}
+
+	.date-pic{
+		
+		height: 150px;
+		overflow: hidden;
+	}
+
+	.date-pic img{
+		width: 100%;
+	    height: 100%;
+	}
+	.text-info{
+		text-align: center;
+		font-size: 14px;
+	}
+	.text-info p{
+		 margin-top: 10px;
+	}
+	.text-name{
+		margin-top: 10px;
+		margin-bottom: 10px;
+	    color: #343434;
+	    font-size: 18px;
+	    font-weight: 600;
+	    line-height: 1.5;
+	   
+	}
+
+	.text-info span{
+	    color: #ff7464;
+
+	}
+
+
+
+
+	/* 图片动画部分 */
+	.date-pic{
+		overflow: hidden;
+	}
+	.date-pic:hover img {
+		position: relative;
+		transform: scale(1.2);
+		transition: all 1s;
+
+	}
+
+	/* 精品游记 */
+
+
+	/* 左边部分 */
+	.fine-trip{
+		width: 1200px;
+		margin-right: auto;
+		margin-left: auto;
+		overflow: hidden;
+	}
+
+	.fine-trip .trip-title{
+		border-bottom: 2px solid #6cce1c;
+		margin-bottom: 20px;
+	}
+	.f_left{
+		width: 468px;
+		height: 518px;
+		float: left;
+		
+	}
+
+	.f_left .img-cont{
+		width: 468px;
+		height: 296px;
+		overflow: hidden;
+	}
+	.img-cont img{
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.f_left .tour-info{
+		border: 1px solid #ddd;
+	    height: 200px;
+	    padding: 0 20px 20px;
+	    position: relative;
+
+	}
+
+	.tour-author{
+		color: #626262;
+	    font-size: 14px;
+	    position: relative;
+	    padding-left: 65px;
+	    padding-top: 10px;
+	}
+
+	 .tour-author img{
+		width: 48px;
+	    height: 48px;
+	    position: absolute;
+	    left: 0;
+	    top: -24px;
+	    border: 3px solid #fff;
+	    border-radius: 30px;
+	}
+
+	.f_left .tour-title{
+		font-size: 20px;
+	    color: #343434;
+	    text-align: center;
+	    padding: 10px;
+	    height: 55px;
+	    margin-top: 20px;
+	}
+
+	.f_left .tour-desc{
+		color: #6c6c6c;
+	    line-height: 28px;
+	    font-size: 14px;
+	    height: 80px;
+	    overflow: hidden;
+	}
+
+
+
+	/* 动画部分 */
+	.tour-info:hover{
+		box-shadow: 2px 2px 3px #ccc;
+	}
+
+	.img-cont:hover img{
+		position: relative;
+		transition: all 1s;
+		transform: scale(1.2)
+	}
+
+
+	/* 右边部分 */
+	.f_right {
+		width: 710px;
+		height: 518px;
+		margin-left: 20px;
+		float: left;
+
+	}
+	.f_right li{
+		float: left;
+	    height: 248px;
+	    width: 225px;
+	    margin-right: 17px;
+	    margin-bottom: 20px;
+	   
+	}
+	.f_right li:nth-of-type(3n){
+		margin-right: 0px;
+	}
+
+	.f_right .img-cont{
+		width: 225px;
+		height: 149px;
+		overflow: hidden;
+	}
+	.f_right .tour-title{
+		font-size: 16px;
+	    color: #343434;
+	    font-weight: 600;
+	    line-height: 1.5;
+	    margin-top: 10px;
+	    height: 44px;
+	    overflow: hidden;
+	}
+
+	.f_right .tour-author{
+		padding-top: 0px;
+	}
+	.f_right .tour-author img{
+		width: 36px;
+		height: 36px;
+	}
+
+	.f_right .tour-info{
+		border: 1px solid #ddd;
+	    height: 79px;
+	    padding: 5px 15px 15px;
+	}
+
+
+	/* 底部部分 */
+
+	 .f_bottom li{
+	 	float: left;
+	 	height: 396px;
+	    width: 386px;
+	    margin-right: 20px;
+	    margin-top: 20px;
+	    position: relative;
+	   
+	 }
+	 .f_bottom li:nth-of-type(3){
+	 	margin-right: 0px;
+	 }
+	.f_bottom .img-cont{
+		position: relative;
+	    height: 200px;
+	    overflow: hidden;
+	}
+
+	.f_bottom span{
+		color: #fff;
+	    background: url('../images/trip_index.png') no-repeat 0 0;
+	  
+	    width: 50px;
+	    height: 31px;
+	    text-align: center;
+	    line-height: 26px;
+	    position: absolute;
+	    font-size: 16px;
+	    top: 10px;
+	    left: -5px;
+	}
+
+	.f_bottom .tour-info{
+		font-size: 14px;
+	    line-height: 1.5;
+	    padding: 10px;
+	    border: 1px solid #ddd;
+	    height: 154px;
+	    overflow: hidden;
+	}
+
+	.f_bottom .tour-title{
+		font-size: 16px;
+	    color: #343434;
+	    line-height: 1.5;
+	    font-weight: 600;
+	    text-align: center;
+	    height: 26px;
+	    margin-bottom: 10px;
+	    overflow: hidden;
+	}
+	.f_bottom .tour-desc{
+		line-height: 26px;
+	    color: #6c6c6c;
+	    height: 78px;
+	    overflow: hidden;
+	}
+
+	.f_bottom .tour-hotel{
+		color: #898989;
+	    margin-top: 10px;
+	}
+
+	.tour-hotel a{
+		color: #ff7270;
+	}
+
+
+	/* 旅游专题  */
+	.topic{
+		width: 1200px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 20px;
+
+		overflow: hidden;
+	}
+
+	.topic-title{
+		border-bottom: 2px solid #c3b2ea;
+	}
+	.topic span{
+		font-size: 34px;
+	    line-height: 64px;
+	    font-weight: 600;
+	    color: #343434;
+	}
+	.topic-title .more{
+		float: right;
+		margin-top: 30px;
+		font-size: 14px;
+	    color: #6c6c6c;
+	    line-height: 1;
+	    cursor: pointer;
+	}
+
+	.topic_list li{
+		width: 220px;
+		height: 257px;
+		float: left;
+	    margin-right: 20px;
+	}
+	/* */
+	.topic_list img{
+		border: 2px solid #fff;
+	    border-radius: 50%;
+	    width: 100px;
+	    height: 100px;
+	    margin: 20px auto 0;
+	    display: block;
+	}
+
+	.topic_list img:hover{
+		transition: all 1s;
+		border: 2px solid #ff7270;
+	}
+	.topic_list .author-name{
+
+		text-align: center;
+	    font-size: 16px;
+	    color: #343434;
+	    margin-top: 10px;
+	    margin-bottom: 20px;
+	    line-height: 1.5;
+	}
+
+
+	.topic_list p{
+		margin-bottom: 5px;
+	    font-size: 14px;
+	    color: #343434;
+	    line-height: 1.5;
+	}
+	.topic_list span{
+		font-size: 14px;
+		font-weight: normal;
+		color: #999;
+		line-height: 1.5;
+	}
+	.topic a{
+		color: #6c6c6c;
+	}
+	.topic a:hover{
+		color: red;
+		cursor: pointer;
+	}
+
+	 /* 艺龙旅游指南  */
+	.trip-about{
+		background: #f7f7f7;
+		margin-top: 20px;
+
+	}
+
+	.about{
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+		
+
+	}
+	.about-title {
+	    font-size: 24px;
+	    color: #898989;
+	    padding-top: 30px;
+	}
+	.about>div{
+		margin-top: 30px;
+	    color: #6c6c6c;
+	    padding-left: 100px;
+	    position: relative;
+	    line-height: 24px;
+	}
+	.about span{
+		display: block;
+		font-weight: 600;
+	    font-size: 14px;
+	    position: absolute;
+	    left: 0;
+	    width: 80px;
+	    text-align: right;
+	}
+	.trip-about a{
+		font-size: 12px;
+	    margin-right: 10px;
+	    margin-bottom: 10px;
+	    display: inline-block;
+	}
+
+	.trip-about a:hover{
+		cursor: pointer;
+		color: red;
+	}
+	/* 二维码部分 */
+	.bigimfor{
+		height: 266px;
+		/*width: 1200px;*/
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		border-top:2px solid #e5e5e5;
+		margin-top: 20px;
+		font-size:12px;
+
+
+	}
+
+
+
+	.imfor{
+		height:167px;
+		width: 1100px;
+		
+		margin-top:20px;
+		/* border-top:2px solid #e5e5e5; */
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+
+	.imfor ul{
+		margin-right: 100px;
+		float: left;
+
+	}
+	.imfor li{
+		
+		margin-top: 12px;
+		position: relative;
+
+		
+	}
+	.imfor a{
+		color: black;
+	}
+	.imfor a:hover{
+		color: red;
+	}
+	.imfortop{
+		color: #555555;
+	    font-size:20px;
+		border-left: 3px solid #5d96c7;
+		padding-left: 10px;
+		margin-top: 18px;
+
+	}
+
+
+	.imfor_pic1{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -260px -55px ;
+	}
+
+	.imfor_pic2{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -367px -55px ;
+	}
+
+	.imfor_pic3{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -158px -55px ;
+	}
+
+	.bigimfor p{
+		margin-right:auto;
+		margin-left:auto;
+		text-align:center;
+		width: 1100px;
+		font-size: 12px;
+		padding: 2px 0px;
+		/* position: relative; */
+	}
+
+	 .bottom1{
+		position: relative;
+	}
+	 .bottom2{
+	 	display:block;
+
+		position:absolute;
+		width:22px;
+		height:22px;
+		left:350px;
+		background:url("../images/police.png") no-repeat ;
+	}
+
+
+	.morelogo{
+		position: relative;
+		height: 60px;
+		overflow: hidden;
+	}
+	.morelogo li{
+		float: left;
+		margin-right: 25px;
+	}
+	.logo1{
+
+		position:absolute;
+
+		width:80px;
+		height:35px;
+		top: 15px;
+		left:362px;
+		background:url("../images/icons.png") no-repeat -325px -440px  ;
+	}
+
+	.logo2{
+
+		position:absolute;
+		width:64px;
+		height:35px;
+		top: 14px;
+		left:450px;
+		background:url("../images/icons.png") no-repeat -325px -484px  ;
+	}
+
+	.logo3{
+
+		position:absolute;
+		width:96px;
+		height:35px;
+		top: 18px;
+		left:528px;
+		background:url("../images/icons.png") no-repeat -474px -444px  ;
+	}
+
+	.logo4{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 18px;
+	    left: 626px;
+	    background: url('../images/icons.png') no-repeat -564px -442px;
+	}
+
+	.logo5{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 18px;
+	    left: 729px;
+	    background: url('../images/icons.png') no-repeat -656px -442px;
+	}
+
+	.logo6{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 16px;
+	    left: 834px;
+	    background: url('../images/icons.png') no-repeat -391px -480px;
+	}
+
+
+	/* 回到顶部 */
+
+
+	.back-top {
+	    right: 40px;
+	    width: 38px;
+	    height: 82px;
+	    background: url('../images/trip_index.png') 0 -138px;
+	    position: fixed;
+	    bottom: 50px;
+	    right: 50px;
+	    display: none;
+	}
+	  

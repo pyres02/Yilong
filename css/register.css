@@ -1,0 +1,241 @@
+	/*
+	* @Author: Administrator
+	* @Date:   2018-07-29 15:44:43
+	* @Last Modified by:   admin
+	* @Last Modified time: 2018-09-12 20:31:58
+	*/
+	body{
+		background: #e8eff6;
+	}
+	header{
+		width: 1000px;
+		height: 100px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+
+	h1 span{
+	    float:left;
+		position: absolute;
+
+		width:120px;
+		height:50px;
+		top:23px;
+
+		background:url("../images/icon3.png") no-repeat  0px 0px;
+
+	}
+
+	main{
+		width: 1000px;
+		padding-bottom:100px;
+		background: #fff;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.main{
+		width: 600px;
+	    
+		margin-left: 30px;
+		
+		
+		
+
+	}
+	.main span{
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	a{
+		text-decoration: none;
+	}
+	.main h5{
+		padding: 40px 0px;
+
+	}
+
+	.main input[type="checkbox"]{
+		margin-left: 131px;
+		margin-top:30px;
+		box-shadow: inset 0px 4px 9px -5px rgba(0,0,0,.2);
+
+	}
+	.imfor{
+		width: 381px;
+		height: 303px;
+		text-align: right;
+	}
+
+	.imfor span{
+		color: red;
+	}
+	input[type="text"]{
+		width: 120px;
+		height: 30px;
+		margin-bottom: 20px;
+		border: 1px solid #bbbbbb;
+		box-shadow: inset 0px 4px 9px -5px rgba(0,0,0,.2);
+		border-radius:5px;
+		outline:none
+
+
+	}
+
+	input[type="password"]{
+		width: 250px;
+		height: 30px;
+		margin-bottom: 20px;
+	    outline:none;
+	    border:1px solid #ccc;
+	    box-shadow: inset 0px 4px 9px -5px rgba(0,0,0,.2);
+		border-radius:5px;
+
+	}
+	.box1 input{
+		width:250px;
+	}
+	.box4 input[type="text"]{
+		width: 250px;
+
+		outline:none;
+
+	}
+
+	input[type="submit"]{
+		background: #3377dd;
+		color: #fff;
+		height: 30px;
+		margin-bottom: 20px;
+		border-radius: 8px;
+		border: none;
+		outline:none;
+		outline:none
+
+	}
+	input:focus{
+		border:1px solid skyblue;
+		box-shadow: inset 0px 4px 10px -5px skyblue;
+	}
+
+
+
+
+	/*表单部分*/
+
+
+	.imfor>div{
+		position:relative;
+	}
+	#phonetip{
+		position:absolute;
+		top:10px;
+
+		right:-150px;
+		font-size:14px;
+
+	}
+	#codetip{
+		position:absolute;
+		top:10px;
+
+		right:-150px;
+		font-size:14px;
+
+	}
+
+	#notetip{
+		position:absolute;
+		top:10px;
+
+		right:-150px;
+		font-size:14px;
+
+	}
+	#emailtip{
+		position:absolute;
+		top:10px;
+
+		right:-150px;
+		font-size:14px;
+
+	}
+	#passtip{
+		position:absolute;
+		top:67px;
+
+		right:-164px;
+		font-size:14px;
+
+	}
+	.way{
+		width: 350px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 20px ;
+
+	}
+
+	.way_input{
+		background:#f8f8f8;
+		border:1px solid #ccc;
+		color:#ccc;
+		width:100px;
+		padding:10px;
+		text-align:center;
+	}
+
+
+	.addition {
+	    background-color: #f8f8f8;
+	    width: 530px;
+	    border: 1px solid #d9d9d9;
+	    padding: 12px;
+	}
+
+	.way dl{
+		margin-top:10px;
+		margin-bottom:10px;
+		display: none;
+		overflow: hidden;
+	}
+	.way dt {
+	    width: 140px;
+	    float: left;
+	    font-size: 12px;
+	    clear: left;
+	    height: 30px;
+	    line-height: 30px;
+	    margin-bottom:10px;
+
+	}
+
+	.way dd{
+		height:30px;
+		margin-bottom:20px;
+	}
+	.reg{
+		width: 350px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+
+	.reg input[type="submit"]{
+
+		width: 200px;
+		height: 40px;
+		background: #ff8900;
+		color: #fff;
+		text-align: center;
+		margin-top: 40px;
+
+	}
+
+	.reg input[type="submit"]:hover{
+
+		
+		background: red;
+		
+	}

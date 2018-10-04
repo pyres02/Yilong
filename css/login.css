@@ -1,0 +1,374 @@
+	/*
+	* @Author: Administrator
+	* @Date:   2018-07-29 12:18:02
+	* @Last Modified by:   admin
+	* @Last Modified time: 2018-09-12 20:31:40
+	*/
+
+	body{
+		background: #e8eff6;
+	}
+	header{
+		width: 1000px;
+		height: 100px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+
+	h1 span{
+
+	float:left;
+		position: absolute;
+
+		width:120px;
+		height:50px;
+		top:23px;
+
+		background:url("../images/icon3.png") no-repeat  0px 0px;
+
+	}
+
+	.loginbox{
+		height: 348px;
+		width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
+		background:#fff;
+		
+	}
+
+	.left{
+		height: 348px;
+		width: 620px;
+		background: url('../images/login_banner1.jpg');
+		margin-right: 50px;
+		float: left;
+	}
+
+	.right{
+		height: 348px;
+		width: 288px;
+		
+		float: left;
+		position: relative;
+	}
+
+	.right input[type="radio"]{
+		margin: 23px 0px;
+		font-weight: bold;
+		margin-left: 15px;
+	}
+
+	.right input[type="radio"]:nth-of-type(1){
+		margin-left: 0px;
+
+	}
+
+	.right input[type="password"],.right input[type="text"]{
+
+		width: 288px;
+		height: 36px;
+		border: 1px solid #b8b8b8;
+		/* 重置边框 */
+		border-right: none;
+		box-sizing: border-box;
+		/*伸缩盒子  */
+		outline: none;
+		margin-bottom: 20px;
+		box-shadow: inset 0px 4px 9px -5px rgba(0,0,0,.2);
+
+	}
+	/* 聚焦的样式 */
+	.right input[type="text"]:focus{
+		/* 修改边框颜色 */
+		border-color: #38f;
+	}
+
+	.test input[type="text"]{
+		width: 150px;
+		height: 36px;
+		box-shadow: inset 0px 4px 9px -5px rgba(0,0,0,.2);
+
+	}
+
+
+	.right>div{
+		position: relative;
+		display:none;
+	}
+
+	.right .current{
+		display:block;
+		position: relative;
+	}
+
+
+	/*表单验证 部分*/
+	#usertip{
+		
+		position:absolute;
+		top: -18px;
+	}
+	#passtip{
+		position:absolute;
+		top: 38px;
+	}
+	#codetip{
+		position:absolute;
+		top: 90px;
+		left:0px;
+	}
+
+
+	.forget{
+		float: right;
+		
+	}
+	 a{
+		text-decoration: none;
+	}
+
+	.right input[type="submit"]{
+		width: 284px;
+		height: 40px;
+		margin-top: 20px;
+		background: #ff8800;
+		border-radius: 10px;
+		border: none;
+		color: #fff;
+		outline:none;
+	}
+
+	.right input[type="submit"]:hover{
+		background: red;
+
+	}
+
+
+	.user{
+		position:absolute;
+		width: 19px;
+	    height: 28px;
+	    background: url(../images/icons.png) no-repeat -686px -374px;
+	    top: 3px;
+	    right: 10px;
+
+	}
+
+	.pass{
+		position:absolute;
+		width: 19px;
+	    height: 28px;
+	    background: url(../images/icons.png) no-repeat -712px -374px;
+	    top: 60px;
+	    right: 10px;
+
+	}
+
+
+	/*手机登录部分*/
+
+
+	.phonenum {
+	    height: 33px;
+	    line-height: 33px;
+	    background-position: 75px 0px;
+	    border-radius: 2px;
+	}
+
+
+	.phonenum {
+	    width: 105px;
+	    height: 35px;
+	    float: left;
+	    background: url(../images/midify_tel.png) no-repeat 75px -1px;
+	    border: 1px solid #ccc;
+	    margin: 0 8px 0 0;
+	    line-height: 28px;
+	    cursor: pointer;
+	    padding: 0 0 0 5px;
+	    position: relative;
+	 
+	    font-size: 12px;
+	    z-index: 11;
+	}
+
+
+	.mobile #userPhone {
+	    width: 157px;
+	    left: 117px;
+	    color:#ccc;
+	}
+
+	.right .code input{
+		box-shadow: inset 0px 4px 9px -5px rgba(0,0,0,.2);
+		width:160px;
+	}
+
+	.right .code button{
+		width: 110px;
+	    height: 35px;
+	    display: block;
+	    float: right;
+	    background-color: #37D;
+	    color: #FFF;
+	    border-radius: 5px;
+	    text-align: center;
+	    line-height:35px;
+	    font: 14px/35px Microsoft Yahei;
+	    cursor: pointer;
+	}
+	.mobile p{
+	    margin-top:10px;
+	    font-size: 12px;
+	    color: #555;
+	    cursor: pointer;
+	}
+
+	.tip2 span{
+	  
+	      color: #3377dd;
+	   
+	}
+	.bind-phonetip {
+	    position: absolute;
+	    border: 1px solid #d0d0d0;
+	    padding: 15px 10px;
+	    background: #fff;
+	    margin-top: 15px;
+	    z-index: 1;
+	    display:none;
+
+	}
+
+
+
+
+	.regbox{
+		width: 900px;
+		height: 20px;
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+		
+
+	}
+
+	.regbox a{
+		text-decoration: none;
+		position: absolute;
+		right: 0px;
+		top: 0px;
+		color: #3365cb;
+	}
+
+	.regbox span{
+		width: 20px;
+		height: 20px;
+		text-align: center;
+		color: #fff;
+		position: absolute;
+		background: #3365cb;
+		border-radius: 50px;
+
+	}
+	a:hover{
+		color: #ff8800;
+	}
+	.regbox span:hover{
+		background: #ff8800;
+	}
+
+	footer{
+		height: 185px;
+	}
+	.imfor{
+		width: 1000px;
+		height: 50px;
+		margin-top: 56px;
+		
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 135px;
+
+
+	}
+
+	.imfor p{
+		text-align: center;
+		color: #6e7179;
+		font-size: 14px;
+		
+
+	}
+	.imfor a{
+	   color: #6e7179;
+	}
+
+	.imfor a:hover{
+		color: #ff8800;
+	}
+
+
+	.logo{
+		height: 30px;
+		width: 300px;
+		margin-bottom: 5px;
+		text-align: center;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		
+
+	}
+	.imfor ul{
+	/* 	float: right; */
+		text-align: center;
+	}
+	.imfor li{
+		float: left;
+		text-align: center;
+		line-height: 30px;
+		margin-left: 70px;
+
+		
+	}
+	.logo1{
+		position: absolute;
+		width: 21px;
+	    height: 20px;
+	    background: url(../images/icon3.png) no-repeat 0px -276px;
+	    top: 2px;
+	    left: 43px;
+	}
+
+	.logo2{
+		position: absolute;
+		width: 21px;
+	    height: 20px;
+	    background: url(../images/icon3.png) no-repeat -25px -276px;
+	    top: 2px;
+	    left: 153px;
+	}
+
+	.logo1:hover{
+		position: absolute;
+		width: 21px;
+	    height: 20px;
+	    background: url(../images/icon3.png) no-repeat 0px -303px;
+	    top: 2px;
+	    left: 43px;
+
+	}
+
+	.logo2:hover{
+		position: absolute;
+		width: 21px;
+	    height: 20px;
+	    background: url(../images/icon3.png) no-repeat -25px -304px;
+	    top: 2px;
+	    left: 153px;
+
+	}

@@ -1,0 +1,753 @@
+	/*
+	* @Author: hp
+	* @Date:   2018-07-31 18:30:39
+	* @Last Modified by:   admin
+	* @Last Modified time: 2018-09-12 20:32:23
+	*/
+
+	header{
+		width: 1200px;
+		height: 75px;
+		
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+	/* 	overflow: hidden; */
+	}
+
+
+	a{
+		text-decoration:none;
+	}
+	h1 span{
+
+	float:left;
+		position: absolute;
+
+		width:120px;
+		height:50px;
+		top:14px;
+
+		background:url("../images/icons.png") no-repeat  -659px 0px;
+
+	}
+
+
+	header p{
+		
+		margin-left:355px;
+		margin-top:20px;
+		font-size:14px;
+		color:#999;
+		float:left;
+
+	}
+	header a{
+		
+		color:#999;
+	}
+	header a:hover{
+		color: red;
+	}
+
+	.top{
+		height:75px;
+		float:right;
+	}
+
+	header .left{
+		display: block;
+		position:relative;
+
+		width:40px;
+		height:44px;
+		
+		
+		left:-14px;
+		float:left;
+
+		background:url("../images/icons.png") no-repeat  -127px -763px;
+
+	}
+
+	header .center{
+		display: block;
+		position:relative;
+
+		width:40px;
+		height:44px;
+		
+		
+		left:-14px;
+		float:left;
+
+		background:url("../images/icons.png") no-repeat  -2px  -763px;
+
+	}
+	header .right{
+		display: block;
+		position:relative;
+
+		width:40px;
+		height:44px;
+		
+		
+		left:-14px;
+		float:left;
+
+		background:url("../images/icons.png") no-repeat  -43px -763px;
+
+	}
+
+
+	.top li{
+		 
+		float:left;
+		width:150px;
+		margin-right:36px;
+		margin-top:17px;
+		position: relative;
+
+	}
+
+
+	.box1{
+		font-size:13px;
+		color:#08ba04;
+
+	}
+
+
+	.box2{
+		font-size:13px;
+		color:#fe6766;
+
+	}
+
+	.box3{
+		font-size:13px;
+		color:#4a94f5;
+
+	}
+
+
+
+
+	.pic1{
+		position: absolute;
+	    width: 240px;
+	    height: 124px;
+	    background: url(../images/icons.png) no-repeat -395px -172px;
+	    left: -77px;
+	    top: 77px;
+	    display: none;
+	     z-index: 1
+
+
+	}
+
+	.pic2{
+		position: absolute;
+	    width: 228px;
+	    height: 100px;
+	    background: url(../images/icons.png) no-repeat -461px -55px;
+	    left: -76px;
+	    top: 77px;
+	    display: none;
+	     z-index: 1
+
+
+	}
+
+	.pic3{
+		width: 140px;
+		height: 100px;
+		background: #fff;
+		position: absolute;
+		right: 5px;
+		top: 50px;
+
+		line-height: 20px;
+		border: 1px solid #ccc;
+		padding: 10px;
+	   display: none;
+	    z-index: 1
+
+	}
+
+
+
+	.lang{
+		position: absolute;
+		width: 60px;
+		height: 80px;
+		background: #fff;
+		left: 505px;
+		top: 46px;
+		font-size: 12px;
+		border: 1px solid #ccc;
+		display: none;
+	}
+
+	.lang li{
+		border-bottom: 1px dashed #ccc;
+		padding: 10px;
+		font-size: 12px;
+	}
+
+	/********导航样式********/
+
+	nav{
+		height:40px;
+		background:#2064c8;
+
+	}
+
+
+
+	.nav{
+		width:1200px;
+		height:40px;
+		
+		margin-right: auto;
+		margin-left: auto;
+		overflow:hidden;
+		line-height: 40px;
+		position: relative;
+
+	}
+
+	.nav li{
+		float:left;
+		color:#fff;
+		font-size:13px;
+		border-right:1px solid #fff;
+		height: 40px;
+		padding:0px 13px;
+		text-align: center;
+	}
+
+	.nav li:hover{
+		background: #c0d2e4;
+		height: 40px;
+	}
+	.nav a{
+		display: block;
+		
+		height: 40px;
+		transition: background 0.8s;
+		font-size: 14px;
+		 color:#fff;
+		 text-decoration: none;
+
+	}
+
+	.t_color{
+		background:#003679;
+	}
+	/*****************/
+
+	main{
+		 background: #f4f4f4 url("../images/search-bg.jpg") no-repeat;
+	    background-position: center bottom;
+	    background-size: auto 100%;
+	    background-size: cover;
+	    height: 800px;
+	    overflow: hidden;
+	}
+	 .main{
+	 	width:667px;
+	 	height:800px;
+	 	margin-right:auto;
+	 	margin-left:auto;
+	 	background:#f2f4f7;
+	 	 overflow: hidden;
+	 	 position: relative;
+	 }
+
+	.top2{
+		width:667px;
+		height:45px;
+		background:#fff;
+		position: relative;
+		overflow: hidden;
+
+	}
+
+	.direct{
+	    display: block;
+
+	    width: 18px;
+	    height: 16px;
+	    margin: 17px 0px 0px 15px;
+	    background: url("../images/direct.png") no-repeat;
+	    background-size: contain;
+	    float:left;
+
+	}
+
+	h5{
+		position:absolute;
+		width:491px;
+		height:45px;
+		text-align:center;
+		line-height:45px;
+		float:left;
+		font-size:20px;
+		left: 88px;
+	    right: 88px;
+	}
+	.my{
+		position: absolute;
+	    top: 1px;
+	    width: 41px;
+	    height: 41px;
+	    display: block;
+	    right: 0;
+	    background: url("../images/my.png") center no-repeat;
+	     background-size: 50%;
+	}
+
+	.mylogin{
+
+			width:667px;
+	 	    height:800px;
+	 	    background:#fff;
+	 		position:absolute;
+	 		top:0px;
+	 		display:none;
+	}
+	.mytop{
+		width:640px;
+		height:86px;
+		background:#fff;
+		margin-left:15px;
+		border-bottom: 1px solid #eee;
+
+
+	}
+
+	.mytop li{
+		height: 85px;
+	    width: 267px;
+	    float: left;
+	    text-align: center;
+	    line-height: 85px;
+	    font-size:30px;
+		
+	   
+	}
+	.mylogin .login1{
+		display:none;
+	}
+
+	.mylogin .current{
+		display:block;
+	}
+	.login1 li{
+		 width: 600px;
+	    margin-left:30px;
+	    margin-top:20px;
+	    border-bottom:2px solid #ccc;
+	}
+
+	.login1 input{
+	    width:380px;
+	    outline: 0;
+	    border: none;
+	    height: 1.5rem;
+	    line-height: 1.5rem;
+	    padding: 1.25rem 0 1rem 0;
+	    font-size: 25px;
+	    margin-left:20px;
+	  
+	}
+
+
+	.mylogin .login1 #n_search{
+		margin-top:40px;
+		margin-left:30px;
+		height:80px;
+	}
+
+	.login1 li>span{
+		font-size:30px;
+		text-align:right;
+	}
+
+
+	.login1 button{
+		height:80px;
+	}
+	.mytop .current{
+		color: #23beae;
+	    border-bottom: 2px solid #23beae;
+	}
+	.news{
+		width:647px;
+		height:300px;
+		margin-left:auto;
+		margin-right:auto;
+		background:#fff;
+		margin-top:10px;
+		border:1px solid #ccc;
+		
+	}
+
+
+
+	.news>div{
+		
+
+		float:left;
+		position: relative;
+		margin-top: 10px;
+		border-bottom: 1px solid #ccc;
+		color:#ccc;
+		line-height:54px;
+	}
+
+
+
+
+	.news select{
+		width: 150px;
+		margin-top:10px;
+	    border: none;
+	    background: #fff;
+	    border-radius: 3px;
+	    padding: 0 3px;
+	}
+
+	.news>div:nth-of-type(1){
+		width: 400px;
+		position: relative;
+		margin-left:20px;
+	}
+
+
+	.news input{
+		width: 400px;
+		height: 30px;
+		margin-left: 20px;
+		margin-right: 20px;
+		border:none;
+	}
+	.news>div:nth-of-type(3){
+		margin-left:20px;
+		width:600px;
+		position: relative;
+		
+	}
+	.news .search{
+		margin-left:20px;
+		width:600px;
+		height:46px;
+		border:none;
+
+	}
+	#n_search{
+	    display:block;
+		border: 0;
+	    color: #FFF;
+	    font-size: 20px;
+	    height: 44px;
+	    line-height: 44px;
+	    text-align: center;
+	    width: 600px;
+	    border: 0;
+	    color: #FFF;
+	    border:none;
+	    margin-top: 20px;
+	    background-color: #ff5346;
+	    border-radius:10px;
+	    cursor:pointer ;
+	}
+
+	#n_search:hover{
+	 background:skyblue;
+	}
+
+	button{
+		outline:none;
+	}
+
+
+	select{
+		outline:none;
+	}
+	.go_back {
+	    position: absolute;
+	    display: block;
+	    width: 39px;
+	    height: 39px;
+	    left: -120px;
+	    background: url(../images/go.png) no-repeat ;
+	     background-size: 39px 39px;
+	     top: 10px;
+	}
+
+	.t_select{
+		font-size:20px;
+		color:black;
+		margin-left:20px;
+		width:600px;
+		position: relative;
+	}
+	.t_select i{
+		
+		width: 20px;
+	    height: 20px;
+	    background: url('../images/t.png') no-repeat ;
+	    float: left;
+	    margin: 2px 6px 0 0;
+	    position: relative;
+	    top: 25px;
+	    cursor:pointer;
+	    background-size: 20px 20px;
+	    right:-580px;
+	}
+
+	.t_select .check{
+	background: url('../images/t2.png') no-repeat ;
+		
+		
+	}
+
+
+
+	.bottom{
+		width:667px;
+		height:150px;
+	    margin-top:300px;
+		
+
+	}
+
+	.bottom img{
+		width: 102px;
+	    height: 26px;
+	    text-align:center;
+	    margin-left:288px;
+	}
+
+	.lg1{
+		display: block;
+	    height: 12px;
+	    width: 12px;
+	    background: url("../images/icon.png") no-repeat;
+	    margin-right: 5px;
+	    vertical-align: middle;
+	    background-size: 12px 12px;
+	    margin-top: -1px;
+	    float: left;
+	}
+
+	.bottom li{
+		float: left;
+		margin: 10px 66px;
+		color: #b6becf;
+		font-size: 12px;
+	}
+	.bottom p{
+	float: left;
+	}
+
+
+
+
+
+
+	/****************/
+	.bigimfor{
+		height: 266px;
+		/*width: 1200px;*/
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		border-top:2px solid #e5e5e5;
+		margin-top: 20px;
+		font-size:12px;
+
+
+	}
+	.bigimfor p{
+
+		margin:30px 0px;
+	}
+	.imfor{
+		height:167px;
+		width: 1200px;
+		
+		margin-top:20px;
+		/* border-top:2px solid #e5e5e5; */
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+
+	.imfor a{
+		color: black;
+		font-family: Microsoft yahei;
+
+	}
+	.imfor a:hover{
+		color: red;
+	}
+	.imfor ul{
+		margin-right: 100px;
+		float: left;
+
+	}
+	.imfor li{
+
+		margin-top: 12px;
+		position: relative;
+		// font-size: 14px;
+	}
+	.imfortop{
+		color: #555555;
+		font-size:20px;
+
+		border-left: 3px solid #5d96c7;
+		padding-left: 10px;
+		margin-top: 18px;
+
+	}
+
+
+	.imfor_pic1{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -260px -55px ;
+	}
+
+	.imfor_pic2{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -367px -55px ;
+	}
+
+	.imfor_pic3{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -158px -55px ;
+	}
+
+	.bigimfor p{
+		font-size: 12px;
+		padding: 2px 0px;
+		/* position: relative; */
+	}
+
+	.bottom1{
+		position: relative;
+	}
+	.bottom2{
+		position:absolute;
+		width:22px;
+		height:22px;
+		left:446px;
+		background:url("../images/police.png") no-repeat ;
+	}
+
+
+	.morelogo{
+		position: relative;
+		height: 60px;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.morelogo li{
+		float: left;
+		margin-right: 25px;
+	}
+	.logo1{
+
+		position:absolute;
+		width:80px;
+		height:35px;
+		top: 15px;
+		left:362px;
+		background:url("../images/icons.png") no-repeat -325px -440px  ;
+	}
+
+	.logo2{
+
+		position:absolute;
+		width:64px;
+		height:35px;
+		top: 14px;
+		left:450px;
+		background:url("../images/icons.png") no-repeat -325px -484px  ;
+	}
+
+	.logo3{
+
+		position:absolute;
+		width:96px;
+		height:35px;
+		top: 18px;
+		left:528px;
+		background:url("../images/icons.png") no-repeat -474px -444px  ;
+	}
+
+	.logo4{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 18px;
+	    left: 626px;
+	    background: url(../images/icons.png) no-repeat -564px -442px;
+	}
+
+	.logo5{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 18px;
+	    left: 729px;
+	    background: url(../images/icons.png) no-repeat -656px -442px;
+	}
+
+	.logo6{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 16px;
+	    left: 834px;
+	    background: url(../images/icons.png) no-repeat -391px -480px;
+	}
+
+	.morelogo .current span{
+		animation: move 1s linear;
+	}
+
+	/* 定义动画 */
+	@keyframes move{
+					/* 书写各个状态样式条 */
+		0%{
+						/* right: 0px; */
+						transform: rotate(0deg);
+		}
+		50%{
+						transform: rotate(30deg);
+					}
+	}

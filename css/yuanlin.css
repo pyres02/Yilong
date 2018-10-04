@@ -1,0 +1,353 @@
+	/*
+	* @Author: hp
+	* @Date:   2018-08-04 15:36:49
+	* @Last Modified by:   admin
+	* @Last Modified time: 2018-09-12 20:32:31
+	*/
+
+
+
+	header{
+		height: 40px;
+		background:#f8f8f8;
+		overflow: hidden;
+	}
+	.head{
+		width: 1000px;
+		height:48px;
+		
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.head img{
+		margin-top: 5px;
+	}
+
+	.right1{
+		width: 673px;
+		height: 48px;
+		float: right;
+		text-align: center;
+		line-height: 48px;
+		font-size: 12px;
+		/* color: #cbcbcb; */
+		
+	}
+
+	.right1 span{
+		color: red;
+	}
+
+	.right1 a{
+		margin: 0px 10px;
+		text-decoration: none;
+		color: #000;
+	}
+	h1{
+		float: left
+	}
+
+
+	main{
+		background:url('../images/banner.jpg') no-repeat center 0 #f6f1e5;
+	    padding: 480px 0 0 0;
+	    overflow: hidden;
+	}
+
+	.bigcenter{
+		width:1000px;
+		
+		
+		margin-left: auto;
+		margin-right: auto;
+		/* overflow: hidden; */
+	}
+
+	.one{
+		margin-bottom: 45px;
+		overflow: hidden;
+
+	}
+	h2 {
+		font-size: 18px;
+		color:#555555;
+		
+	}
+
+	h2 span{
+		font-size:36px;
+		font-weight: bold;
+	}
+
+
+	.right{
+		background: url(../images/rgbg.png) no-repeat 0 0;
+	    width: 280px;
+	    padding: 80px 20px 30px 32px;
+	    height: 110px;
+	    float: right;
+	    margin-bottom: 20px;
+	  
+	}
+
+	.right p{
+		line-height: 20px;
+		font-size:14px;
+		color:#555555;
+	}
+
+	h6 a{
+		text-decoration: none;
+		color:#555555;
+		cursor: pointer;
+	}
+
+	h6{
+		width:300px;
+		font-size:20px;
+		color:#272822;
+		font-weight:bold;
+		border-bottom: 1px dashed #555555;
+		margin-top: 14px;
+		padding-bottom: 8px;
+
+		}
+
+	a:hover{
+		color: red;
+	}
+	.city_list{
+		width:1000px;
+		height:314px;
+		
+		overflow: hidden;
+	}
+
+
+	.city_list li{
+
+	float: left;
+	  width:320px;
+	  height:314px;
+	  background:#fff;
+	  margin-right:20px;
+	  
+
+
+	}
+
+	li:nth-of-type(3n){
+		margin-right: 0px;
+	}
+
+	.txt{
+
+		width:300px;
+		height:95px;
+		
+		/* margin-top: 16px; */
+		margin-left: 10px;
+		margin-right: 10px;
+		
+	}
+
+
+	.txt p{
+
+		font-size:12px;
+		line-height: 20px;
+		color: #555555;
+		
+		margin-top: 8px;
+		margin-left: 10px;
+		margin-right: 10px;
+		
+
+	}
+
+	.spg1{
+		display: block;
+		background: url('../images/dd1.jpg') no-repeat ;
+		left: 0px;
+		top: 5px;
+		width: 12px;
+		height: 9px;
+		position: relative;
+	}
+
+	.spg2{
+		display: block;
+		background: url('../images/dd2.jpg') no-repeat ;
+		right: -290px;
+		bottom: 5px;
+		width: 12px;
+		height: 9px;
+		position: relative;
+	}
+
+	.bigimfor{
+		height: 266px;
+		/*width: 1200px;*/
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		position: relative;
+		border-top:2px solid #e5e5e5;
+		margin-top: 20px;
+		font-size:12px;
+
+
+	}
+
+
+
+	.imfor{
+		height:167px;
+		width: 1200px;
+		
+		margin-top:20px;
+		/* border-top:2px solid #e5e5e5; */
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+	}
+
+	.imfor ul{
+		margin-right: 100px;
+		float: left;
+
+	}
+	.imfor li{
+		
+		margin-top: 12px;
+		position: relative;
+		
+	}
+	.imfortop{
+		color: #555555;
+	    font-size:20px;
+		border-left: 3px solid #5d96c7;
+		padding-left: 10px;
+		margin-top: 18px;
+
+	}
+
+
+	.imfor_pic1{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -260px -55px ;
+	}
+
+	.imfor_pic2{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -367px -55px ;
+	}
+
+	.imfor_pic3{
+
+		position:absolute;
+		width:95px;
+		height:95px;
+		top: 15px;
+		left:14px;
+		background:url("../images/icons.png") no-repeat -158px -55px ;
+	}
+
+	.bigimfor p{
+		font-size: 12px;
+		padding: 2px 0px;
+		/* position: relative; */
+	}
+
+	.bottom1{
+		position: relative;
+	}
+	.bottom2{
+		position:absolute;
+		width:22px;
+		height:22px;
+		left:446px;
+		background:url("../images/police.png") no-repeat ;
+	}
+
+
+	.morelogo{
+		position: relative;
+		height: 60px;
+		overflow: hidden;
+	}
+	.morelogo li{
+		float: left;
+		margin-right: 25px;
+	}
+	.logo1{
+
+		position:absolute;
+		width:80px;
+		height:35px;
+		top: 15px;
+		left:362px;
+		background:url("../images/icons.png") no-repeat -325px -440px  ;
+	}
+
+	.logo2{
+
+		position:absolute;
+		width:64px;
+		height:35px;
+		top: 14px;
+		left:450px;
+		background:url("../images/icons.png") no-repeat -325px -484px  ;
+	}
+
+	.logo3{
+
+		position:absolute;
+		width:96px;
+		height:35px;
+		top: 18px;
+		left:528px;
+		background:url("../images/icons.png") no-repeat -474px -444px  ;
+	}
+
+	.logo4{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 18px;
+	    left: 626px;
+	    background: url(../images/icons.png) no-repeat -564px -442px;
+	}
+
+	.logo5{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 18px;
+	    left: 729px;
+	    background: url(../images/icons.png) no-repeat -656px -442px;
+	}
+
+	.logo6{
+
+		position:absolute;
+		width: 96px;
+	    height: 35px;
+	    top: 16px;
+	    left: 834px;
+	    background: url(../images/icons.png) no-repeat -391px -480px;
+	}
